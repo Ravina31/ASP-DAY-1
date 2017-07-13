@@ -1,0 +1,44 @@
+﻿@model Demo_MVCBasics.Models.HelloModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Hello</title>
+</head>
+<body>
+    <div>
+        <h1 style="color:lightsalmon;"> Hello World (From static definition of view(Hello))! </h1>
+    </div>
+    @*<div>
+            <h1 style='color:blue;'>
+                @ViewData["data2"]
+            </h1>
+        </div>
+        <div>
+            <h1 style='color:red;'>
+                @ViewBag.data1
+            </h1>
+        </div>*@
+    @using (Html.BeginForm())
+    {
+    <div>
+        @*<h1 style="color:brown;">
+            @ViewData.Model.Data
+        </h1>*@
+        @*@Html.LabelFor(m=>m.Data) : @Html.DisplayFor(m=>m.Data)*@
+        @*@Html.LabelFor(m => m.Data) : @Html.EditorFor(m => m.Data)*@
+
+        <label for="Data">Enter some text </label>
+        <input type="text" id="Data" name="Data" />
+    </div>
+    <div>
+        <input type="submit" value="Submit"/>
+    </div>
+    }
+</body>
+</html>

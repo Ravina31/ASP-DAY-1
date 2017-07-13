@@ -1,0 +1,9 @@
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyBizLayer\bin\Debug\CompanyBizLayer.dll
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyBizLayer\bin\Debug\CompanyBizLayer.pdb
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyBizLayer\bin\Debug\CompanyDAL.dll
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyBizLayer\bin\Debug\CompanyEntities.dll
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyBizLayer\bin\Debug\CompanyDAL.pdb
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyBizLayer\bin\Debug\CompanyEntities.pdb
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyBizLayer\obj\Debug\CompanyBizLayer.csprojResolveAssemblyReference.cache
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyBizLayer\obj\Debug\CompanyBizLayer.dll
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyBizLayer\obj\Debug\CompanyBizLayer.pdb

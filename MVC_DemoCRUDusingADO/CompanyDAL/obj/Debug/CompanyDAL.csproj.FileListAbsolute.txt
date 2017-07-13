@@ -1,0 +1,7 @@
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyDAL\bin\Debug\CompanyDAL.dll
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyDAL\bin\Debug\CompanyDAL.pdb
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyDAL\bin\Debug\CompanyEntities.dll
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyDAL\bin\Debug\CompanyEntities.pdb
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyDAL\obj\Debug\CompanyDAL.csprojResolveAssemblyReference.cache
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyDAL\obj\Debug\CompanyDAL.dll
+C:\Users\GepTestuser\documents\visual studio 2015\Projects\MVC_DemoCRUDusingADO\CompanyDAL\obj\Debug\CompanyDAL.pdb
