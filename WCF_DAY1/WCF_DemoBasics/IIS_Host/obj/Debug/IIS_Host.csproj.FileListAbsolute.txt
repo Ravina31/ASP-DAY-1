@@ -1,0 +1,9 @@
+D:\WCF_DAY1\WCF_DemoBasics\IIS_Host\bin\IIS_Host.dll
+D:\WCF_DAY1\WCF_DemoBasics\IIS_Host\bin\IIS_Host.pdb
+D:\WCF_DAY1\WCF_DemoBasics\IIS_Host\bin\ContractsLib.dll
+D:\WCF_DAY1\WCF_DemoBasics\IIS_Host\bin\ServicesLib.dll
+D:\WCF_DAY1\WCF_DemoBasics\IIS_Host\bin\ContractsLib.pdb
+D:\WCF_DAY1\WCF_DemoBasics\IIS_Host\bin\ServicesLib.pdb
+D:\WCF_DAY1\WCF_DemoBasics\IIS_Host\obj\Debug\IIS_Host.csprojResolveAssemblyReference.cache
+D:\WCF_DAY1\WCF_DemoBasics\IIS_Host\obj\Debug\IIS_Host.dll
+D:\WCF_DAY1\WCF_DemoBasics\IIS_Host\obj\Debug\IIS_Host.pdb

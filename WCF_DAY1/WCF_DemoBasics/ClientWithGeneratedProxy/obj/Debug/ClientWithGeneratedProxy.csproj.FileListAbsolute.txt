@@ -1,0 +1,12 @@
+D:\Worker\WCF_DemoBasics\ClientWithGeneratedProxy\bin\Debug\ClientWithGeneratedProxy.exe.config
+D:\Worker\WCF_DemoBasics\ClientWithGeneratedProxy\bin\Debug\ClientWithGeneratedProxy.exe
+D:\Worker\WCF_DemoBasics\ClientWithGeneratedProxy\bin\Debug\ClientWithGeneratedProxy.pdb
+D:\Worker\WCF_DemoBasics\ClientWithGeneratedProxy\obj\Debug\ClientWithGeneratedProxy.csprojResolveAssemblyReference.cache
+D:\Worker\WCF_DemoBasics\ClientWithGeneratedProxy\obj\Debug\ClientWithGeneratedProxy.exe
+D:\Worker\WCF_DemoBasics\ClientWithGeneratedProxy\obj\Debug\ClientWithGeneratedProxy.pdb
+D:\WCF_DAY1\WCF_DemoBasics\ClientWithGeneratedProxy\bin\Debug\ClientWithGeneratedProxy.exe.config
+D:\WCF_DAY1\WCF_DemoBasics\ClientWithGeneratedProxy\bin\Debug\ClientWithGeneratedProxy.exe
+D:\WCF_DAY1\WCF_DemoBasics\ClientWithGeneratedProxy\bin\Debug\ClientWithGeneratedProxy.pdb
+D:\WCF_DAY1\WCF_DemoBasics\ClientWithGeneratedProxy\obj\Debug\ClientWithGeneratedProxy.csprojResolveAssemblyReference.cache
+D:\WCF_DAY1\WCF_DemoBasics\ClientWithGeneratedProxy\obj\Debug\ClientWithGeneratedProxy.exe
+D:\WCF_DAY1\WCF_DemoBasics\ClientWithGeneratedProxy\obj\Debug\ClientWithGeneratedProxy.pdb

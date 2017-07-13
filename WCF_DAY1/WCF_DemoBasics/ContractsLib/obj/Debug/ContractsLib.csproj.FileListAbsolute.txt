@@ -1,0 +1,5 @@
+D:\Worker\WCF_DemoBasics\ContractsLib\bin\Debug\ContractsLib.dll
+D:\Worker\WCF_DemoBasics\ContractsLib\bin\Debug\ContractsLib.pdb
+D:\Worker\WCF_DemoBasics\ContractsLib\obj\Debug\ContractsLib.csprojResolveAssemblyReference.cache
+D:\Worker\WCF_DemoBasics\ContractsLib\obj\Debug\ContractsLib.dll
+D:\Worker\WCF_DemoBasics\ContractsLib\obj\Debug\ContractsLib.pdb

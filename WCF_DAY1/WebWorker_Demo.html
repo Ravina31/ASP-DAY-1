@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insert Title here</title>
+        <meta content="text/html" charset="utf-8"/>
+        <script>
+            var worker = new Worker("bigloop.js");
+        
+
+            worker.onmessage = function(evt)
+            {
+                alert(evt.data+' iterations completed!');
+            } 
+
+            function helloWorld()
+            {
+                alert('Hello World!');
+            }
+            worker.onerror(ErrorEvent , Error )
+            {
+        
+            }
+        </script>
+    </head>
+    <body>     
+        <input type="button"
+            onclick="helloWorld()"
+            value="Hello World!"/>
+    </body>
+</html>

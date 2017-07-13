@@ -1,0 +1,7 @@
+D:\Worker\WCF_DemoBasics\ServicesLib\bin\Debug\ServicesLib.dll
+D:\Worker\WCF_DemoBasics\ServicesLib\bin\Debug\ServicesLib.pdb
+D:\Worker\WCF_DemoBasics\ServicesLib\bin\Debug\ContractsLib.dll
+D:\Worker\WCF_DemoBasics\ServicesLib\bin\Debug\ContractsLib.pdb
+D:\Worker\WCF_DemoBasics\ServicesLib\obj\Debug\ServicesLib.csprojResolveAssemblyReference.cache
+D:\Worker\WCF_DemoBasics\ServicesLib\obj\Debug\ServicesLib.dll
+D:\Worker\WCF_DemoBasics\ServicesLib\obj\Debug\ServicesLib.pdb

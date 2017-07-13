@@ -1,0 +1,8 @@
+D:\Worker\WCF_DemoBasics\ClientWithDynamicProxy\bin\Debug\ClientWithDynamicProxy.exe.config
+D:\Worker\WCF_DemoBasics\ClientWithDynamicProxy\bin\Debug\ClientWithDynamicProxy.exe
+D:\Worker\WCF_DemoBasics\ClientWithDynamicProxy\bin\Debug\ClientWithDynamicProxy.pdb
+D:\Worker\WCF_DemoBasics\ClientWithDynamicProxy\bin\Debug\ContractsLib.dll
+D:\Worker\WCF_DemoBasics\ClientWithDynamicProxy\bin\Debug\ContractsLib.pdb
+D:\Worker\WCF_DemoBasics\ClientWithDynamicProxy\obj\Debug\ClientWithDynamicProxy.exe
+D:\Worker\WCF_DemoBasics\ClientWithDynamicProxy\obj\Debug\ClientWithDynamicProxy.pdb
+D:\Worker\WCF_DemoBasics\ClientWithDynamicProxy\obj\Debug\ClientWithDynamicProxy.csprojResolveAssemblyReference.cache
