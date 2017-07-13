@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="Home"  description="Entertainment Home">
+      <siteMapNode url="" title="Music"  description="" >
+        <siteMapNode url="Music/Jazz.aspx" title="Jazz Music"  description="" />
+        <siteMapNode url="Music/Pop.aspx" title="Pop Music"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="Sports"  description="">
+        <siteMapNode url="Sports/Cricket.aspx" title="Cricket"  description="" />
+        <siteMapNode url="Sports/Football.aspx" title="Football"  description="" />
+        </siteMapNode>
+     
+    </siteMapNode>
+</siteMap>
