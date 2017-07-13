@@ -1,6 +1,0 @@
-C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\Trainer\obj\Debug\Trainer.csprojResolveAssemblyReference.cache
-C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\Trainer\bin\Debug\Trainer.exe.config
-C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\Trainer\bin\Debug\Trainer.exe
-C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\Trainer\bin\Debug\Trainer.pdb
-C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\Trainer\obj\Debug\Trainer.exe
-C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\Trainer\obj\Debug\Trainer.pdb
