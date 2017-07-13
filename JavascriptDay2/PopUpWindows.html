@@ -1,0 +1,46 @@
+<html>
+    <title> Windows </title>
+    <head>
+        <script>
+            var wininnerwidth = window.innerWidth;
+             var wininnerheight = window.innerHeight;
+             var childinnerwidth = wininnerwidth -200;
+             var childinnerheight =wininnerheight - 200;
+             var midw =wininnerwidth/2;
+             var midh =wininnerheight /2;
+             var w1, w2, w3, w4, w5;
+             function opennewwindow()
+             {
+                 w1=window.open("p3.jpg", "_blank", "height=200,width=200,left=0,top=0" );
+                  w2=window.open("p3.jpg", "_blank", "height=200,width=200,left="+childinnerwidth+",top=0" );
+                   w3=window.open("p3.jpg", "_blank", "height=200,width=200,left=0,top="+childinnerheight );
+                    w4=window.open("p3.jpg", "_blank", "height=200,width=200,left="+childinnerwidth+",top="+childinnerheight );
+                     w5=window.open("p3.jpg", "_blank", "height=200,width=200,left="+midw+",top="+midh );
+            
+             }
+            
+           
+           
+           
+           
+           
+           
+           
+           
+           
+            window.onbeforeunload =function(){
+                w1.close();
+                w2.close();
+                w3.close();
+                w4.close();
+                w5.close();
+            };
+            </script>
+    </head>
+            <body>
+                <form>
+                    <input type="button" value="open" onclick="opennewwindow()"/>
+                </form>
+                
+            </body>
+</html>

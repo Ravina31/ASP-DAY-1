@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title></title>
+    
+    </head>
+<body> 
+    <div id="div1">
+    <p id="p1"> This is bubbling </p>
+    </div>
+    <div id="div2">
+    <p id="p2"> This is capturing </p>
+    </div>
+    <script >
+   document.getElementById("div1").addEventListener("click",
+   function()
+       {
+            alert("you clicked div1");
+       } ,false);
+       document.getElementById("p1").addEventListener("click",
+       function()
+       {
+           alert("you clicked p1")
+       },false);
+     document.getElementById("div2").addEventListener("click",
+   function()
+       {
+            alert("you clicked div2");
+       } ,true);
+       document.getElementById("p2").addEventListener("click",
+       function()
+       {
+           alert("you clicked p2")
+       },true);
+
+    </script>
+     
+    </body>    
+</html>

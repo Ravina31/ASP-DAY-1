@@ -1,0 +1,45 @@
+<html>
+    <title>  </title>
+    <head>
+        <style>
+.main{
+    width : 300px;
+    height : 220px;
+    background-color: blue;
+    color: peachpuff;
+    font-size: 24px;
+    border: 3px dotted yellow;
+}
+
+.anotherClass
+{
+     border: 3px double orange;
+      background-color: red;
+}
+
+            </style>
+        <script src="jquery-3.2.1.js">
+            
+            </script>
+
+           
+            <script> 
+             $(document).ready(function()
+            {
+                   // $("div").addClass("main");
+                    //  $("#d1").addClass("anotherClass");
+
+                    //  $("div").removeClass("main");
+
+                     //toggle class
+                     $("div").toggleClass("main");
+
+            });
+             </script>
+    </head>
+            <body>
+                <div class="main"> This is div with class </div>
+                <div> This is another div </div>
+                
+            </body>
+</html>

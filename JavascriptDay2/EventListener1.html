@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title> Event handling in javascript</title>
+   
+</head>
+<body> 
+ Name : <input type="text" id="txtip"/>
+<br/>
+Hello <span id="namespan"> </span>
+ <script>
+ var inputEle =document.getElementById("txtip");
+ var spanEle =document.getElementById("namespan");
+
+ inputEle.addEventListener('keyup',
+ function(){
+     var text =inputEle.value;
+     spanEle.innerHTML = text;
+      });
+      
+        
+</script>
+    
+    </body>    
+</html>

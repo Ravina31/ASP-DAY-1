@@ -1,0 +1,30 @@
+<html>
+    <title>  </title>
+    <head>
+        
+    </head>
+            <body>
+                <input type="text" id="input"/>
+                <button type="button" onclick="myfun()" > text input </button>
+                <p id="p1"> </p> 
+                <script>
+                    function myfun(){
+                        var x = document.getElementById("input").value;
+                        try {
+                            x= Number(x);
+                            if (x=="") throw "empty";
+                            if(isNaN(x)) throw "Not a number";
+                            if(x>30) throw "Too big";
+                            if(x<5) throw "Too small";
+                            document.getElementById("p1").innerHTML = " Input text is as expected" + x+"<br/>";
+                            
+                        } catch (e) {
+                            document.getElementById("p1").innerHTML = " Error: Input is" + e+"<br/>"; 
+                            
+                        }
+                    }
+            
+            </script>
+                
+            </body>
+</html>

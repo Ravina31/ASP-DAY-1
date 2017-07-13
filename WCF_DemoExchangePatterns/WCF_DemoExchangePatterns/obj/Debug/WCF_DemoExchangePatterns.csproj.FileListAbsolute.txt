@@ -1,0 +1,6 @@
+D:\Worker\WCF_DemoExchangePatterns\WCF_DemoExchangePatterns\bin\Debug\WCF_DemoExchangePatterns.exe.config
+D:\Worker\WCF_DemoExchangePatterns\WCF_DemoExchangePatterns\bin\Debug\WCF_DemoExchangePatterns.exe
+D:\Worker\WCF_DemoExchangePatterns\WCF_DemoExchangePatterns\bin\Debug\WCF_DemoExchangePatterns.pdb
+D:\Worker\WCF_DemoExchangePatterns\WCF_DemoExchangePatterns\obj\Debug\WCF_DemoExchangePatterns.exe
+D:\Worker\WCF_DemoExchangePatterns\WCF_DemoExchangePatterns\obj\Debug\WCF_DemoExchangePatterns.pdb
+D:\Worker\WCF_DemoExchangePatterns\WCF_DemoExchangePatterns\obj\Debug\WCF_DemoExchangePatterns.csprojResolveAssemblyReference.cache

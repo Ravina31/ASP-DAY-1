@@ -1,0 +1,55 @@
+<html>
+    <title>  </title>
+    <head>
+        <script src="jquery-3.2.1.js">
+            
+            </script>
+            <script> 
+            $(document).ready(function(){
+            //     $("span.subchild").parent().css("border","3px solid red");
+            // })
+
+            //  $(document).ready(function(){
+            //     $("span.subchild").parents("div.parent").css("border","3px solid gray");
+            // })
+            //$("span.subchild").parents().css("border","3px solid red");
+            // $("span.subchild").parentsUntil("div.grandparent").css("border","3px solid red");
+             // $("span.subchild").closest("div").css("border","3px solid pink");
+               //$("div.child").closest("div").css("border","3px solid pink");
+               // $("div.grandparent").children("div").css("border","3px solid pink");
+                 //$("div.grandparent").find("div").css("border","3px solid pink");
+
+                //  var l = $("li.a")[0];
+                //  $("ul").find(l).css("border","3px solid pink");
+
+                // $("div.parent").next().css("border","3px solid pink");
+                 // $("div.parent").nextAll().css("border","3px solid pink");
+                 // $("div.surrogatep2").prev().css("border","3px solid pink");
+                 //$("div.surrogatep").prevAll().css("border","3px solid pink");
+                 $("div.surrogatep").siblings().css("border","3px solid pink");
+
+
+            });
+
+             </script>
+    </head>
+            <body>
+                <div class="grandparent"> grandparent
+                    <div class="parent"> parent <br/>
+                        <div class="child"> child <br/>
+                            <span class="subchild"> subchild </span>
+                        </div></div>
+                        <div class="surrogatep1"> surrogateparent1 </div>
+                         <div class="surrogatep"> surrogateparent2 </div>
+                </div>
+
+                <ul> 
+                    <li> List items </li>
+                     <li class="a"> List items </li>
+                      <li class="b"> List items </li>
+                </ul>
+
+
+                
+            </body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <title align="center"> Html 5 semantic elements </title>
+    <meta content="text/html" charset="utf-8"/>
+    <style> 
+   
+    </style>
+    <script>
+        function draw(){
+            var canvas = document.getElementById("mycanvas");
+            var context =canvas.getContext("2d");
+
+
+            //Rectangle
+            // context.strokeStyle = "Maroon";
+            // context.strokeRect(20,40,100,50);
+            // context.fillStyle = "orange";
+            // context.fillRect(20,40,50,50);
+
+            //Line
+            // context.moveTo(10,10);
+            // context.lineTo(200,100);
+            //  context.strokeStyle = "Maroon";
+            //  context.stroke();
+
+            //Path
+            // context.beginPath();
+            // context.arc(75,75,50,0, Math.PI * 2, true);
+            //  context.moveTo(110,75);
+            //   context.arc(75,75,35,0, Math.PI , false);
+            //  context.moveTo(65,65);
+            //   context.arc(60,65,5,0, Math.PI * 2, true);
+            // context.moveTo(95,65);
+            //   context.arc(90,65,5,0, Math.PI * 2, true);
+            //  context.stroke();
+
+
+            //  var lgrd = context.createLinearGradient (0,0,200,0);
+            //  lgrd.addColorStop(0, "red");
+            //   lgrd.addColorStop(0.5, "green");
+            //    lgrd.addColorStop(1, "blue");
+            //    context.fillStyle = lgrd;
+            //    context.fillRect(20,30,200,100);
+
+                var lgrd = context.createRadialGradient(75,50,5,90,60,100);
+             lgrd.addColorStop(0, "red");
+              lgrd.addColorStop(0.5, "green");
+               lgrd.addColorStop(1, "blue");
+               context.fillStyle = lgrd;
+               context.fillRect(20,30,200,100);
+
+
+             
+
+            
+            
+
+
+            
+        }
+        document.addEventListener("DOMContentLoaded",draw,false);
+        </script>
+</head>
+<body>
+    <canvas id="mycanvas" width="400" height="300" style="border : 1px solid black"> </canvas>
+
+    
+</body>
+
+</html>

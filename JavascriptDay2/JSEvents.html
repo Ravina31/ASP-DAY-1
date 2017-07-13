@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title> Event handling in javascript</title>
+    <script>
+        function click1()
+        {
+            alert("button clicked");
+        }
+        function f1()
+        {
+            alert("Move over is called");
+        }
+         function f2()
+        {
+            document.getElementById("mypara").innerHTML="<h1> This is new contents</h1>";
+            //document.getElementById("mypara").innerText="<h1> This is new contents</h1>";
+            document.getElementById("mypara").style="background-color:peachpuff";
+        }
+   f1();
+   f2();
+</script>
+</head>
+<body> 
+    <form>
+<input type="button" value ="click me" onclick="click1()"/>
+
+<input type="text" onmouseover="f1()"/>
+<input type="text" id="username" onkeypress="f1()"/>
+
+<p id="mypara"> This is my para </p>
+<input type="button" value ="change text" onclick="f2()"/>
+
+
+    </form>
+    </body>    
+</html>

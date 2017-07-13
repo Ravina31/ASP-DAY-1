@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_DemoExchangePatterns", "WCF_DemoExchangePatterns\WCF_DemoExchangePatterns.csproj", "{A9EB7705-AD85-40D7-AC6E-A2C6323FC065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client1\Client.csproj", "{C182B9DD-B393-4439-A115-6B6E0FE3314C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9EB7705-AD85-40D7-AC6E-A2C6323FC065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EB7705-AD85-40D7-AC6E-A2C6323FC065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EB7705-AD85-40D7-AC6E-A2C6323FC065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EB7705-AD85-40D7-AC6E-A2C6323FC065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C182B9DD-B393-4439-A115-6B6E0FE3314C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C182B9DD-B393-4439-A115-6B6E0FE3314C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C182B9DD-B393-4439-A115-6B6E0FE3314C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C182B9DD-B393-4439-A115-6B6E0FE3314C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

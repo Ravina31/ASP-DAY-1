@@ -1,0 +1,32 @@
+<html>
+<head>
+     <script  src= "MathematicalOperatorsFuntionFile.js"> </script>
+    <title>Mathematical operaters in javascript</title>
+      </head>
+    <body> 
+   
+    <h1> Mathematical Operators </h1>
+
+    Addition is <span style = "font-size: large; color:maroon" id = "SpanAdd"></span><br/>
+    Subtraction is <span style = "font-size: large; color:maroon" id = "Spansub"></span><br/>
+    Multiplication is <span style = "font-size: large; color:maroon" id = "Spanmul"></span><br/>
+    Division is <span style = "font-size: large; color:maroon" id = "Spandiv"></span><br/>
+      <script>  
+    var a=0, b=0, result=0;
+    a =parseInt(prompt("Enter first no"));
+    b= parseInt(prompt("Enter second no"));
+    result = add(a,b);
+    document.getElementById("SpanAdd").innerHTML = result;
+    result = sub(a,b);
+    document.getElementById("Spansub").innerHTML = result;
+    result = mul(a,b);
+    document.getElementById("Spanmul").innerHTML = result;
+    result = div(a,b);
+    document.getElementById("Spandiv").innerHTML = result;
+
+    </script>
+  
+
+     
+    </body>    
+</html>

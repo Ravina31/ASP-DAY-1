@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <title align="center"> Html 5 semantic elements </title>
+    <meta content="text/html" charset="utf-8"/>
+    <style> 
+   
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <script>
+    $(document).ready(function()
+    {
+        jQuery("#mybtn").click(function(){
+            if(window.Storage)
+            {
+                var uname = $("#uname").val();
+                localStorage.setItem("uname", uname);
+                window.location.href= "WelcomeUser.html";
+            }
+            else
+            {
+                alert("not supported by browser")
+            }
+            localStorage.removeItem('key');
+        });
+    });
+    
+     </script>
+</head>
+<body>
+    <h1> User login </h1>
+    <label> Enter Username: </label>
+    <input type="text" name="uname" id="uname"/>
+    <input type="submit" id="mybtn" value="Click me"/>
+    
+</body>
+
+</html>

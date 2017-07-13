@@ -1,0 +1,38 @@
+<html>
+    <title>  </title>
+    <head>
+        <script src="jquery-3.2.1.js">
+            
+            </script>
+             <style>
+
+                p{
+                    background: yellow;
+                }
+
+               
+                </style>
+            <script> 
+             $(document).ready(function()
+            {
+            $("#b1").click(function(){
+                    $("p#1").slideToggle(1000)
+                      $("p#2").slideToggle(2000)
+                           $("p#3").slideToggle(3000)
+                                $("p#4").slideToggle(4000)
+                                     $("p#5").slideToggle(5000)
+                })
+            });
+
+             </script>
+    </head>
+            <body>
+                 <button id="b1" > Magic </button>
+                 <p id="1"> Para 1 </p>
+                  <p id="2"> Para 2 </p>
+                   <p id="3"> Para 3 </p>
+                    <p id="4"> Para 4 </p>
+                     <p id="5"> Para 5 </p>
+                
+            </body>
+</html>

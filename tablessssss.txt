@@ -1,0 +1,55 @@
+CREATE TABLE [dbo].[Client] (
+    [Client_ID]       INT           IDENTITY (1, 1) NOT NULL,
+    [ Client_Name]    NVARCHAR (50) NULL,
+    [Client_Location] NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Client_ID] ASC)
+);
+
+
+
+
+CREATE TABLE [dbo].[Feedback] (
+    [Identity_ID]      INT          IDENTITY (1, 1) NOT NULL,
+    [Training_Name]    VARCHAR (50) NULL,
+    [Trainer_Name]     VARCHAR (50) NULL,
+    [Participant_Name] VARCHAR (50) NULL,
+    [Designation]      VARCHAR (50) NULL,
+    [P_Email]          VARCHAR (50) NULL,
+    [O_Email]          VARCHAR (50) NULL,
+    [Mobile_No]        VARCHAR (50) NULL,
+    [Office_No]        VARCHAR (50) NULL,
+    [QOC]              VARCHAR (50) NULL,
+    [QOE]              VARCHAR (50) NULL,
+    [PSOT]             VARCHAR (50) NULL,
+    [QSBT]             VARCHAR (50) NULL,
+    [OQOP]             VARCHAR (50) NULL,
+    [ Interest]        VARCHAR (50) NULL,
+    [Liked]            VARCHAR (50) NULL,
+    [ Disliked]        VARCHAR (50) NULL,
+    [Comments]         VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Identity_ID] ASC)
+);
+
+
+
+
+CREATE TABLE [dbo].[Schedule_Training] (
+    [Training_ID]   INT        IDENTITY (1, 1) NOT NULL,
+    [Training_Name] NCHAR (10) NULL,
+    [Trainer_Name]  NCHAR (10) NULL,
+    [Start_Date]    DATETIME   NULL,
+    [End_Date]      DATETIME   NULL,
+    PRIMARY KEY CLUSTERED ([Training_ID] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[Trainer] (
+    [Trainer_ID]    INT          IDENTITY (1, 1) NOT NULL,
+    [Trainer_Name]  VARCHAR (50) NULL,
+    [Email_ID]      VARCHAR (50) NULL,
+    [Base_Location] VARCHAR (50) NULL,
+    [Profile_Link]  VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Trainer_ID] ASC)
+);
+

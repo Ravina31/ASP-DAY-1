@@ -1,0 +1,5 @@
+C:\CaseStudy\WCFDemoSecurity\ContractsLib\bin\Debug\ContractsLib.dll
+C:\CaseStudy\WCFDemoSecurity\ContractsLib\bin\Debug\ContractsLib.pdb
+C:\CaseStudy\WCFDemoSecurity\ContractsLib\obj\Debug\ContractsLib.csprojResolveAssemblyReference.cache
+C:\CaseStudy\WCFDemoSecurity\ContractsLib\obj\Debug\ContractsLib.dll
+C:\CaseStudy\WCFDemoSecurity\ContractsLib\obj\Debug\ContractsLib.pdb

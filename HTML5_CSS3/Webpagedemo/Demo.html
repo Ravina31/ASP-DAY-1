@@ -1,0 +1,41 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title align="center"> Html 5 semantic elements </title>
+    <meta content="text/html" charset="utf-8"/>
+    <style> 
+   
+    </style>
+</head>
+<body>
+    <h2> Web Messaging </h2>
+    <form method="post">
+        <p> 
+            <input type="text" name="message" id="message"
+            value="" placeholder="Enter a message"/>
+            <br/>
+            <button> Send </button>
+        </p>
+    </form>
+
+    <iframe src="advPage.html"></iframe>
+    <script>
+        var form = document.querySelector('form'),
+        iframe = document.querySelector('iframe');
+        formHandler = function (e) {
+            e.preventDefault();
+            var msg = document.querySelector("#message").value;
+            if (msg == '') {
+                alert("Enter the message");
+            }
+            else {
+                iframe.contentWindow.postMessage(msg, "http://localhost:62787");
+            }
+        }
+
+        form.addEventListener('submit', formHandler, false);
+        </script>
+    
+</body>
+
+</html>

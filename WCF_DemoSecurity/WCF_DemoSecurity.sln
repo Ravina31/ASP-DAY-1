@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractsLib", "ContractsLib\ContractsLib.csproj", "{E339BE9F-E805-4489-B672-D30B35D77570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesLib", "ServicesLib\ServicesLib.csproj", "{5BC84BBB-607D-4F05-A991-173EF354D5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{CCD2C704-D0EB-40A0-B548-7E0855B10F19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E339BE9F-E805-4489-B672-D30B35D77570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E339BE9F-E805-4489-B672-D30B35D77570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E339BE9F-E805-4489-B672-D30B35D77570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E339BE9F-E805-4489-B672-D30B35D77570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC84BBB-607D-4F05-A991-173EF354D5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC84BBB-607D-4F05-A991-173EF354D5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC84BBB-607D-4F05-A991-173EF354D5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC84BBB-607D-4F05-A991-173EF354D5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD2C704-D0EB-40A0-B548-7E0855B10F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD2C704-D0EB-40A0-B548-7E0855B10F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD2C704-D0EB-40A0-B548-7E0855B10F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD2C704-D0EB-40A0-B548-7E0855B10F19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

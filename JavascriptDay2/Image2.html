@@ -1,0 +1,33 @@
+<html>
+    <title> Image </title>
+    <head>
+        <script>
+           var i=0;
+           var path = new Array();
+
+           //List of images
+           path[0]= "p1.jpg";
+           path[1]="p2.jpg";
+           path[2]="p3.jpg";
+
+           function swapimage()
+           {
+               document.slide.src = path[i];
+               if (i<path.length - 1) 
+                {
+                    i++;
+               }
+               else
+               i=0;
+               setTimeout("swapimage()",3000) ;
+           }
+           window.onload = swapimage;
+            </script>
+    </head>
+            <body>
+                <div align="center" >
+                    <img src="p2.jpg" name="slide" border="0px" width="650px" height="500"/>
+                   
+                </div>
+            </body>
+</html>

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h3> PostMessage received here</h3>
+    <div></div>
+    <script> 
+        (function(e){
+            var div = document.querySelector("div");
+            div.innerHTML = "";
+            var msgHandler = function(e){
+                if (e.origin == "http://localhost:62787")
+                {
+                    div.innerHTML += e.data + "<br/>";
+                }
+                else{
+                    throw new Error ("Origin domain not allowed");
+                }
+            }   
+            window.addEventListener("message", msgHandler, false);   
+        })();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+<html>
+<head>
+    <title> Form validation</title>
+    <script >
+        function validate()
+        {
+            var username =document.getElementById("username").value;
+             var password =document.getElementById("password").value;
+              var confirm_password =document.getElementById("confirm_password").value;
+               var mobile =document.getElementById("mobile").value;
+                var email =document.getElementById("email").value;
+                 var pincode =document.getElementById("pincode").value;
+                 var country =document.getElementById("country").value;
+ alert("hi")
+                 if (username == "" || password=="" || confirm_password== "" || mobile=="" || email == "" || pincode== "" || country=="")
+                 {
+                     alert("Enter all the fields");
+                 }
+
+                 emailexp= /^([a-zA-z0-9_\.\-])+\@(([a-zA-z0-9\-])+\.)+([cpm\co\.\in])+$/; //validate email string
+                 if (email!=' ') 
+                 {
+                     if (!email.match(emailexp))
+                      {
+                         alert("Invalid email");
+                     }
+                 } 
+
+                  if (password!==confirm_password)
+                       {
+                        alert("Password ,mismatched");    
+                      }
+
+                 //to validate pincode
+                 if (pincode==" "|| isNan(pincode)|| pincode.length!==6) 
+                 {
+                     alert("Enter valid pincode of 6 digits");
+                     document.myform.pincode.focus();
+                     return false;
+                 }
+
+                 var gender_check="";
+                 var gender_len =document.myform.gender.length; //2
+
+                 for (var i = 0; i < gender_len; i++)
+                  {
+                     if (document.myform.gender[i].checked)
+                      {
+                        gender_check =document.myform.gender[i].value;   
+                     }
+                  }
+
+                  if (gender_check== "") 
+                  {
+                    alert("select gender either male of female");
+                    return false;    
+                  } }
+
+                  
+                  function numbersonly(e)
+                  {
+                      var unicode = e.charCode ? e.charCode : e.charCode
+                      if (unicode!=8)
+                       {
+                        if (unicode<48 || unicode>57)
+                         {  //if key isnt backspace key (which we should allow)
+                            return false; //disable keypress    
+                        }    
+                      }
+                      else{
+                          return true;
+                      }
+                  }
+
+                  function limitlength()
+                  {
+                      var maxlength =length
+                      if (obj.value.length>maxlength) 
+                      {
+                        obj.value = obj.value.substring(0,maxlength);    
+                      }
+                  }
+
+            
+</script>
+</head>
+<body> 
+    <form name="myform" method="post" action="submit.asp" onsubmit="return(validate())"/>;
+    <fieldset>
+        <legend> Rgistration Form </legend>
+        <table align="center">
+            <tr>
+                <td> Username </td>
+                <td> <input type="text" id="username"> </td>
+            </tr>
+            <tr>
+                 <td> Password </td>
+                <td> <input type="password" id="password"> </td>
+            </tr>
+             <tr>
+                 <td> Confirm Password </td>
+                <td> <input type="password" id="confirm_password"> </td>
+            </tr>
+             <tr>
+                 <td> Mobile No </td>
+                <td> <input type="text" id="mobile" onkeypress="return numbersonly(event)"/> </td>
+            </tr>
+             <tr>
+                 <td> Email </td>
+                <td> <input type="text" id="email"> </td>
+            </tr>
+             <tr>
+                 <td> PinCode </td>
+                <td> <input type="text" id="pincode"> </td>
+            </tr>
+            <tr>
+                 <td> Gender </td>
+                <td> <input type="radio" id="Male" name="gender"> Male
+                <input type="radio" id="Female" name="gender"> Female
+                 </td>
+            </tr>
+            <tr>
+                <td> Country </td>
+                <td>
+                    <select id="country" >
+                        <option value="0" selected="selected"> Select country </option>
+                        <option value="india"> India </option>
+                         <option value="japan">Japan </option>
+                          <option value="US"> US </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Address </td>
+                <td> <textarea name="address" value="address" onkeyup="return limitlength(this,20)"></textarea>
+                </td>  
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit">
+                     <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+        
+
+
+        
+    </body>    
+</html>

@@ -1,0 +1,21 @@
+<html>
+    <title>  </title>
+    <head>
+        <script>
+            window.onerror =function(msg, url, line)
+            {
+                alert("Error is "+msg);
+                alert("File path is "+url);
+                alert("Line no"+line);
+            }
+            
+            </script>
+    </head>
+            <body>
+                <form>
+                    <input type="button" id="b" value="click me" onclick="myfun()"/>
+                    //undefined function is called and error is thrown
+                </form>
+                
+            </body>
+</html>

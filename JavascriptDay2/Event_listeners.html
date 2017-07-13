@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title> Event handling in javascript</title>
+   
+</head>
+<body> 
+    <div> 
+Click Anywere in the document
+    </div>
+    <p id="p1"> This is my Para </p>
+ <script>
+        document.addEventListener("click", function()
+{
+    document.getElementById("p1").innerHTML="Good morining   ";
+});
+ document.addEventListener("click", function()
+ {
+    document.getElementById("p1").innerHTML+="Have a nice day";
+});
+</script>
+    
+    </body>    
+</html>

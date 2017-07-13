@@ -1,0 +1,10 @@
+C:\CaseStudy\WCFDemoSecurity\Host\bin\Debug\Host.exe.config
+C:\CaseStudy\WCFDemoSecurity\Host\bin\Debug\Host.exe
+C:\CaseStudy\WCFDemoSecurity\Host\bin\Debug\Host.pdb
+C:\CaseStudy\WCFDemoSecurity\Host\bin\Debug\ContractsLib.dll
+C:\CaseStudy\WCFDemoSecurity\Host\bin\Debug\ServicesLib.dll
+C:\CaseStudy\WCFDemoSecurity\Host\bin\Debug\ContractsLib.pdb
+C:\CaseStudy\WCFDemoSecurity\Host\bin\Debug\ServicesLib.pdb
+C:\CaseStudy\WCFDemoSecurity\Host\obj\Debug\Host.csprojResolveAssemblyReference.cache
+C:\CaseStudy\WCFDemoSecurity\Host\obj\Debug\Host.exe
+C:\CaseStudy\WCFDemoSecurity\Host\obj\Debug\Host.pdb

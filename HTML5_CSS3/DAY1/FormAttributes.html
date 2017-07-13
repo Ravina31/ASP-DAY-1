@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <title align="center"> Html 5 Form attributes</title>
+    
+    
+    </style>
+</head>
+<body>
+    <form action="1.asp" >
+        <h1> Required </h1>
+    <label for="firstname" > Enter First Name </label>
+    <input type="text" required/>
+   
+
+    <h1> Place holder </h1>
+    <label for="Lastname" > Enter Last Name </label>
+    <input type="text" placeholder="Please enter" autofocus/>
+    <input type="submit">
+
+     <h1> Form action </h1>
+    <label for="formaction" >Form action </label>
+    <input type="submit" formaction="2.asp"/>
+
+     <h1> Form method </h1>
+    <label for="formmethod" >Form method </label>
+    <input type="submit" formaction="2.asp" formmethod="POST" required/>
+
+    <h1> Pattern </h1>
+    <label for="Pattern" >Enter PinCode </label>
+    <input type="text" pattern="[0-9]{6}" oninvalid="check(this)" required/>
+
+    <h1> Form no validate </h1>
+
+    <h1> Multiple </h1>
+    <label for="multiple" >Multiple </label>
+    <input type="email" multiple/>
+     </form>
+    <script>
+        function check(input)
+        {
+            if(input.validity.valueMissing)
+            {
+                input.setCustomValidity("Customized msg");
+
+            }
+            else
+            {
+                input.setCustomValidity("");
+            }
+        }
+        
+     </script>
+   
+
+
+
+
+   
+   
+   
+</body>
+
+</html>

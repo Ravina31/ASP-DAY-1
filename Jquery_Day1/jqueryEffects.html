@@ -1,0 +1,56 @@
+<html>
+    <title>  </title>
+    <head>
+        <script src="jquery-3.2.1.js">
+            
+            </script>
+            <style>
+
+                p{
+                    background: yellow;
+                }
+
+                div{
+                    display: none;
+                    background-color: orange;
+                    width: 150px;
+                    height: 150px;
+                }
+                </style>
+            <script> 
+             $(document).ready(function()
+            {
+                $("#b1").click(function(){
+                    $("p").hide("fast");
+                })
+
+                
+                $("#b2").click(function(){
+                    $("p").show(2000);
+                })
+
+                $("#b2").click(function(){
+                    $("p").show(2000,function(){
+                        alert("show effect is completed");
+                    });
+                })
+
+                 $("#b3").click(function(){
+                    $("p").toggle(2000,function(){
+                        alert("toggle effect is completed");
+                    });
+                })
+
+
+            });
+             </script>
+    </head>
+            <body>
+                <button id="b1" > Hide </button>
+                <button id="b2" > show </button>
+                <button id="b3" > toggle </button>
+                <div id="d1"> this is simple div </div>
+                <p> Para 1 </p>
+                
+            </body>
+</html>

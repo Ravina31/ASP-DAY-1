@@ -1,0 +1,71 @@
+<html>
+    <title>  </title>
+    <head>
+        <script>
+             function validate()
+        {
+            var name = document.getElementById("name").value;
+            var from = document.getElementById("from").value;
+            var to = document.getElementById("to").value;
+            var age = document.getElementById("age").value;
+        var s = /^([a-zA-Z])+$/;
+        
+                     if (!name.match(s))
+                      {
+                         alert("Invalid Name");
+                     }
+
+                     if(name.le)
+            
+        if(from == to)
+        {
+            alert("Source and destination is same");
+        }
+        
+        age =parseInt(age);
+        if(age > 90)
+        {
+            alert("You cannot board on this flight");
+        }
+        
+        
+        
+        }
+            
+            </script>
+    </head>
+            <body>
+                 <fieldset>
+                       <legend> Book a ticket </legend>
+                <form name="myform" method="post" action="submit.asp" onsubmit="return(validate())"/>;
+                 <table align="center">
+                      <tr>
+                <td> Name </td>
+                <td> <input type="text" id="name"> </td>
+            </tr>
+            <tr>
+                <td> From </td>
+                <td> <input type="text" id="from"> </td>
+            </tr>
+            <tr>
+                 <td> To </td>
+                <td> <input type="text" id="to"> </td>
+            </tr>
+             <tr>
+                <td> Age </td>
+                <td> <input type="text" id="age"> </td>
+            </tr>
+             <tr>
+                <td colspan="2" align="center">
+                    <input type="submit">
+                     <input type="reset">
+                </td>
+            </tr>
+            </table>
+
+
+
+
+                </fieldset>
+            </body>
+</html>

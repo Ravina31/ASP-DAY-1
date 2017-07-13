@@ -1,0 +1,22 @@
+<html>
+    <title> Image </title>
+    <head>
+        <script>
+            function mouserollover (myimage)
+            {
+                myimage.src = "p1.jpg";
+            }
+            function mouseout(myimage)
+            {
+                myimage.src = "p2.jpg";
+            }
+            </script>
+    </head>
+            <body>
+                <div align="center" >
+                    <img src="p2.jpg" border="0px" width="650px" height="550px"
+                    onmouseover="mouserollover(this)"
+                    onmouseout="mouseout(this)" />
+                </div>
+            </body>
+</html>

@@ -1,0 +1,61 @@
+<html>
+    <title>  </title>
+    <head>
+        <script>
+            //global var
+            // var count= 0;
+            // function inc_count()
+            // {
+            //     return count += 1;
+            // }
+
+            // function fun1()
+            // {
+            //     document.getElementById("p").innerHTML=inc_count();
+            // }
+            
+        //     //local var
+        //    function inc_count()
+        //     {   var count= 0;
+        //         return count += 1;
+        //     }
+
+        //     function fun1()
+        //     {
+        //         document.getElementById("p").innerHTML=inc_count();
+        //     }
+            
+            //Nested function
+           
+            function inc_count()
+            {     var count= 0;
+            function innerinc()
+            {
+                count += 1;
+            }   innerinc();
+                return count;
+            }
+
+
+//closer
+            // var increment=( function()
+            // {
+            //     var count = 0;
+            //     return function(){
+            //         return count+=1;
+            //     }
+            // })(); //self executing function
+
+            function fun1()
+            {
+                document.getElementById("p").innerHTML=inc_count();
+            }
+            
+
+            </script>
+    </head>
+            <body>
+                <p id="p"> Hey </p>
+                <input type="button" value="click" onclick="fun1()"/>
+            </body>
+</html>

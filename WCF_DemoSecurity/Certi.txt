@@ -1,0 +1,6 @@
+makecert -r -pe -n "CN=GEP" -sky exchange -ss my -sr localmachine
+
+
+makecert -pe -ss My -sr LocalMachine -a sha1 -sky exchange -n "CN=GEPServer"
+
+makecert -pe -ss My -sr LocalMachine -a sha1 -sky exchange -n "CN=GEPClient"

@@ -1,0 +1,6 @@
+D:\Worker\WCF_DemoInstancing\WCF_DemoInstancing\bin\Debug\WCF_DemoInstancing.exe.config
+D:\Worker\WCF_DemoInstancing\WCF_DemoInstancing\bin\Debug\WCF_DemoInstancing.exe
+D:\Worker\WCF_DemoInstancing\WCF_DemoInstancing\bin\Debug\WCF_DemoInstancing.pdb
+D:\Worker\WCF_DemoInstancing\WCF_DemoInstancing\obj\Debug\WCF_DemoInstancing.csprojResolveAssemblyReference.cache
+D:\Worker\WCF_DemoInstancing\WCF_DemoInstancing\obj\Debug\WCF_DemoInstancing.exe
+D:\Worker\WCF_DemoInstancing\WCF_DemoInstancing\obj\Debug\WCF_DemoInstancing.pdb

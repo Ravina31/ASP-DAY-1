@@ -1,0 +1,7 @@
+C:\CaseStudy\WCFDemoSecurity\ServicesLib\bin\Debug\ServicesLib.dll
+C:\CaseStudy\WCFDemoSecurity\ServicesLib\bin\Debug\ServicesLib.pdb
+C:\CaseStudy\WCFDemoSecurity\ServicesLib\obj\Debug\ServicesLib.csprojResolveAssemblyReference.cache
+C:\CaseStudy\WCFDemoSecurity\ServicesLib\obj\Debug\ServicesLib.dll
+C:\CaseStudy\WCFDemoSecurity\ServicesLib\obj\Debug\ServicesLib.pdb
+C:\CaseStudy\WCFDemoSecurity\ServicesLib\bin\Debug\ContractsLib.dll
+C:\CaseStudy\WCFDemoSecurity\ServicesLib\bin\Debug\ContractsLib.pdb

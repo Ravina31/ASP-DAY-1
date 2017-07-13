@@ -1,0 +1,30 @@
+<html>
+    <title> Javascript Prototype </title>
+    <head>
+        
+    </head>
+            <body>
+                <script>
+            function players(fs,ls,age,ss){
+            this.fs = fs;
+            this.ls = ls;
+             this.age = age;
+             this.ss = ss;
+            //this.nationality = "Indian";
+            this.fullname =function()
+            {
+                return this.fs+" "+this.ls;
+            }
+        }
+        //adding property in prototype
+        players.prototype.nationality = "Pakistani<br/>";
+
+
+
+        var s = new players("sachin","tendulkar",44,"batting allrounder");
+        document.write(s.fs+" "+s.ls+" "+s.age+" "+s.ss+" "+s.nationality);
+        var b = new players("bhuvi","abc",55,"bowling");
+        document.write(b.fs+" "+b.ls+" "+b.age+" "+b.ss+" "+b.nationality);
+            </script>
+            </body>
+</html>

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        function initialize()
+        {
+            if (window.EventSource == undefined) {
+                document.getElementById('outputdiv').innerHTML = "You does not support SSC";
+                return;
+            }
+
+            var source = new EventSource("GetDateTime.aspx");
+
+            source.onopen = function (event) {
+                    document.getElementById('outputdiv').innerHTML += "Connection Opened. <br/>";
+            };
+
+
+            source.onerror = function (event) {
+                if (event.eventPhase == EventSource.CLOSED) {
+                    document.getElementById('outputdiv').innerHTML += "Connection Closed. <br/>";
+                };
+            }
+            source.onmessage = function (event) {
+               
+                    document.getElementById('outputdiv').innerHTML +=
+                    event.data + '<br/>';
+               
+            }
+        }
+
+        
+
+    </script>
+</head>
+<body onload="initialize()">
+    <form id="Form1" runat="server">
+        <div id="outputdiv"></div>
+    </form>
+         
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<html>
+<head> 
+    <title>Function in javascript</title>
+    <script >
+    function foo()
+    {
+        document.write("function foo<br/>");
+    }
+
+    foo();
+
+    function welcome (name)
+    {
+        document.write("welcome "+name+" to the world");
+    }
+    function add(a,b)
+    {
+        return a+b ;
+    }
+    document.write("addition is "+add(100,200));
+    welcome("ravina");
+    document.write("<br/>");
+
+    function args()
+    {
+        for (var i = 0; i < arguments.length; i++) {
+            document.write(arguments[i]+"<br/>");
+        } document.write("<br/>");
+    }
+
+    args();
+    args(10,20,30);
+    args(1, "hello", 57,'S');
+    //parse int
+    document.write(parseInt("123" ));
+     document.write("<br/>");
+    document.write(parseInt("abc123" ));
+     document.write("<br/>");
+    document.write(parseInt("123ac"));
+     document.write("<br/>");
+    document.write(parseInt("FF",10));
+     document.write("<br/>");
+     document.write(parseInt("0377",10));
+     document.write("<br/>");
+     document.write(parseInt("234",8));
+   document.write("<br/>");
+      document.write(parseInt("255",8));
+ document.write("<br/>");
+
+ //parse float
+ document.write(parseFloat("23.8"));
+ document.write("<br/>");
+document.write(parseInt("abc12.3" ));
+document.write("<br/>");
+document.write(parseFloat("238     ")); document.write("<br/>");
+document.write(parseFloat("    23e-2")); document.write("<br/>");
+document.write(parseFloat("1e10")); document.write("<br/>");
+
+//isNaN
+document.write(isNaN(123));
+document.write("<br/>");
+document.write(isNaN("123"));
+document.write("<br/>");
+document.write(isNaN("123abc"));
+document.write("<br/>");
+document.write(isNaN("abc345")); document.write("<br/>");
+document.write(isNaN(1.23));
+document.write("<br/>");
+document.write(isNaN(NaN));
+document.write("<br/>");
+document.write("<br/>");document.write("<br/>");document.write("<br/>");document.write("<br/>");
+
+//isFinite
+document.write(isFinite(Infinity));
+document.write("<br/>");
+document.write(isFinite(-Infinity));
+document.write("<br/>");
+document.write(isFinite(123));
+document.write("<br/>");
+document.write(isFinite(1e309));
+document.write("<br/>");
+document.write(isFinite(1e400));
+document.write("<br/>"); document.write("<br/>"); document.write("<br/>");
+
+//eval()
+
+var a = 12;
+document.write(eval(a)+ "<br/>");
+eval("var n2 = 50");
+document.write(n2+ "<br/>");
+var res = eval("150 + 23");
+document.write(res+"<br/>");
+
+
+
+
+
+
+
+
+
+
+ 
+
+     
+
+    </script>
+    </head>
+<body> 
+     
+</body>    
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title align="center"> Html 5 semantic elements </title>
+    <meta content="text/html" charset="utf-8"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <script>
+        $(document).ready(function(){
+            if(window.Storage){
+                var name =localStorage.getItem("uname");
+                $("#username").html(name);
+                 }
+                 else
+                 {
+                     alert("not supported");
+                 }
+
+                 $("#mybtn").click(function(){
+                     localStorage.clear();
+                     $("#username").html("");
+                 })
+        })
+   </script>
+</head>
+<body>
+    <h3> Welcome 
+    <span id="username"> </span>  </h3>
+    <input type="submit" id="mybtn" value ="Signout"/>
+    
+</body>
+
+</html>

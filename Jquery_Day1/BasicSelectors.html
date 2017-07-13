@@ -1,0 +1,77 @@
+<html>
+    <title>  </title>
+    <head>
+        <script src="jquery-3.2.1.min.js">
+            
+            </script>
+             <script> 
+             //universal selector
+            //  $(document).ready(function(){
+            //      $("*").css("background-color","red");
+            //  });
+
+            //element selector
+            //  $(document).ready(function(){
+            //      $("p").css("background-color","red");
+            //  });
+
+             //id selector
+            //   $(document).ready(function(){
+            //      $("#list1").css("background-color","red");
+            //       $("#list2").css("background-color","orange");
+            //  });
+
+             //class selector
+            //  $(document).ready(function(){
+            //      $(".myclass").text("This is rockstar");
+            //       $(".myclass").css("background-color","orange");
+            //         $(".myclass").css("border","3px solid black");
+            //  });
+
+             //multiple 
+            //   $(document).ready(function(){
+            //      $(".myclass").text("This is rockstar")
+            //      .css("background-color","orange")
+            //         .css("border","3px dotted black");
+            //  });
+
+              $(document).ready(function(){
+                 $("p,div").text("This is rockstar")
+                 .css("background-color","orange")
+                    .css("border","3px dotted black");
+             });
+
+
+
+             </script>
+            
+    </head>
+            <body>
+                <p id="p1">
+                    this is ravina
+                </p>
+                <ul id="list1">
+                    <li> List item1 </li>
+                    <li> List item2 </li>
+                    <li> List item3 </li>
+                </ul>
+                <p id="p2">
+                    Hey para2
+                </p>
+                <ul id="list2">
+                    <li> List item4 </li>
+                    <li> List item5 </li>
+                    <li> List item6 </li>
+                </ul>
+                <div> This is div after ul2 </div>
+                 <p class="myclass">
+                    Hey para with class myclass
+                </p>
+                <p >
+                    Hey last para
+                </p>
+
+
+                
+            </body>
+</html>

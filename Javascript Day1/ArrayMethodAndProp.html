@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Array methods and prop in javascript</title>
+    <script >
+ players = ["Sachin",98,"Virat",6,"Rohit"];
+ document.write(players.length+"<br/>");
+ players.sort();
+ document.write(players+"<br/>");
+
+
+ var res = players instanceof Array;
+ document.write(res+"<br/>");
+ var arr =Array.isArray(players);
+ document.write(arr+"<br/>");
+
+  document.write(players.toString()+"<br/>");
+  players.push("Patlyaa");
+  document.write(players.toString()+"<br/>");
+  document.write(players.join("-")+"<br/>");
+  players.pop();
+   document.write(players.toString()+"<br/>");
+   var x= players.toString();
+   document.write(typeof(x)+"<br/>");
+
+   players.shift();
+    players.shift();
+   document.write(players.toString()+"<br/>");
+
+   players.unshift("yyyy");
+   document.write(players.toString()+"<br/>");
+
+   var imax = 2;
+   var jmax = 2;
+   var f = new Array();
+   for ( i = 0; i < imax; i++) {
+      f[i]= new Array();
+      for ( j = 0; j < jmax; j++) {
+      f[i][j]= 0; 
+      }  
+   }
+   document.write(f+"<br/>");
+
+
+   
+    </script>
+    </head>
+<body> 
+     
+    </body>    
+</html>

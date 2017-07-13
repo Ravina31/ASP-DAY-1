@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Sorts in javascript</title>
+    <script >
+        //bubble sort
+        var a = new Array(5);
+        for (var i = 0; i < 5; i++) {
+            a[i] =parseInt(prompt("Enter int"));
+        }
+        
+        for (var i = 0; i < 5; i++) {
+           for (var j = 0; j <= i; j++) {
+               if(a[j]>a[j+1])
+               {    var temp;
+                   temp = a[j];
+                   a[j] = a[j+1];
+                   a[j+1] = temp;
+               }
+               
+           }
+            
+        }
+
+        for (var i = 0; i < 5; i++) {
+          document.write( a[i] );
+          document.write("<br/>");
+        }
+//string sort
+var a1 = new Array(5);
+        for (var i = 0; i < 5; i++) {
+            a1[i] =prompt("Enter string");
+        }
+        
+        for (var i = 0; i < 5; i++) {
+           for (var j = 0; j <= i; j++) {
+               if(a1[j]>a1[j+1])
+               {
+                   var temp;
+                   temp = a1[j];
+                   a1[j] = a1[j+1];
+                   a1[j+1] = temp;
+               }
+               
+           }
+            
+        }
+
+        for (var i = 0; i < 5; i++) {
+          document.write( a1[i] );
+          document.write("<br/>");
+        }
+
+
+
+   
+    </script>
+    </head>
+<body> 
+     
+    </body>    
+</html>

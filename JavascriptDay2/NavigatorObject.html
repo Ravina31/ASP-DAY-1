@@ -1,0 +1,25 @@
+<html>
+    <title> Navigations </title>
+    <head>
+        <script>
+            function Redirect()
+            {
+                window.location = "http://www.flipkart.com";
+            }
+            //setTimeout(Redirect(),5000)
+            alert("full url"+window.location.pathname);
+            alert(location.protocol);
+            alert(location.port);
+
+            //Navigator: it gives info about browser
+            alert("Browser info"+ navigator.appName);
+            alert("browser"+navigator.appVersion);
+            alert(navigator.platform);
+            alert(navigator.language);
+            alert(navigator.cookieEnabled);
+            </script>
+    </head>
+            <body>
+                <input type="button" value="redirect" onclick="Redirect()"/>
+            </body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <title align="center"> Html 5 semantic elements </title>
+    <meta content="text/html" charset="utf-8"/>
+    <style> 
+   
+    </style>
+    <script> 
+    function setcounter()
+    {
+        if (!localStorage.getItem("noOfPageLoads")) {
+            localStorage.setItem("noOfPageLoads",0);
+            
+        }
+
+        localStorage.setItem("noOfPageLoads",
+        parseInt(localStorage.getItem("noOfPageLoads"))+1);
+        document.getElementById("counter").innerHTML =
+        localStorage.getItem("noOfPageLoads");
+    
+    if (!sessionStorage.getItem("noOfPageLoadsPerSession")) {
+            sessionStorage.setItem("noOfPageLoadsPerSession",0);
+            
+        }
+
+        sessionStorage.setItem("noOfPageLoadsPerSession",
+        parseInt(sessionStorage.getItem("noOfPageLoadsPerSession"))+1);
+        document.getElementById("scounter").innerHTML =
+        sessionStorage.getItem("noOfPageLoadsPerSession");
+    
+    }
+
+    window.addEventListener("load",setcounter, false);
+    </script>
+</head>
+<body>
+    <form id="form1">
+        <p>
+            You have viewed
+            this page <span id="counter"></span> times.
+        </p>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        In current session yu have viewedthis page <span id="scounter"> </span> times
+    </form>
+
+    
+</body>
+
+</html>

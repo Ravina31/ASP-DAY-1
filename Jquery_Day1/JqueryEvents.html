@@ -1,0 +1,105 @@
+<html>
+    <title>  </title>
+    <head>
+        <script src="jquery-3.2.1.js">
+            
+            </script>
+            <script
+  
+            <style> 
+
+            p{
+                background: yellow;
+                border: 2px solid green;
+                width: 300px;
+            }
+
+            
+            .highlight{
+                background-color: grey;
+            }
+            
+            </style>
+            <script> 
+             $(document).ready(function()
+            {   //Mouse related
+                // $("#fast").mouseenter(function()
+                // {
+                //     $("#fast").css({"background-color": "aqua","border":"5px solid pink"})
+                // })
+                // $("p#fast").mouseleave(function()
+                // {
+                //     $("p#fast").css({"background-color": "orange","border":"5px solid black"})
+                // })
+
+                // $("#slow").hover(function(){
+                //     $(this).addClass("highlight");
+                // } , function(){
+                //      $(this).removeClass("highlight");
+                // }
+                // );
+
+
+                // //keypress
+                // i=0;
+                // $('input[type="text"]').keypress(function(){
+                //     $("span").text(i=i+1);
+                // });
+
+                // //Attach a handler to an event for elements
+                // $("div.main").bind("mouseenter",function(){
+                //       $("div.main").css("background-color","green");
+
+                // });
+                //  $("div.main").bind("mouseleave",function(){
+                //       $("div.main").css("background-color","pink");
+
+               // });
+                //  $("div.main").bind("click",function(event){
+                //     alert(event.pageX+" "+event.pageY);
+                //  });
+
+                //    $("div.main").bind("click",function(event){
+                //     alert("Event type is "+event.type);
+                //  });
+
+                //  $("body").click(function(event){
+                //     $("#info").html("clicked: "+event.target.nodeName);
+                //  });
+
+                // $(".main").on("mouseenter mouseleave",function(){
+                //     console.log("mouse hovered over or left of div");
+                // });
+
+                 $(".main").on({"mouseenter":function(){
+                    console.log("mouse hovered over a div");
+                },
+                mouseleave:function(){
+                    console.log("mouse  left of div");
+                },
+                click :function(){
+                    console.log("clicked on div");
+                }
+                 });
+            
+                 
+
+            });
+
+
+             </script>
+    </head>
+            <body>
+                <button type="button" id="hide"> Hide Button </button>
+                <button id="show"> Show button </button>
+                <p id="slow"> Para1 </p>
+                <p id="fast"> Para2 </p>
+                <input type="text" id="username"/>
+                <br/>
+                <span> Nothing </span>
+                <div class="main"> This is div 1 </div>
+                <span id="info"> </span>
+
+                
+            </body>
+</html>

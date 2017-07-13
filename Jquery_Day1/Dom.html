@@ -1,0 +1,81 @@
+<html>
+    <title>  DOM manipulation in html </title>
+    <head>
+        <script src="jquery-3.2.1.js">
+            
+            </script>
+            <script> 
+            $(document).ready(function()
+            {   //jquery text method
+                // alert($("#p1").text());
+                // $("#p1").text("This is new content");
+                //  alert($("#list1").text());
+
+                //jquery html method
+               // $("#list1").html("<li>New list item</li>");
+
+               //append()
+
+               //$("p").append("with some dynamic text");
+            //    $("p:last").appendTo("p:first"); //change sequence of o/p
+
+            // $("p").prepend("Prepend text");
+
+            //attribute method
+            $("a").attr("target","_blank");
+                 $("img").attr("src","p1.jpg");
+                  $("img").attr({"src":"p1.jpg","alt":"Image 1"});
+
+            //remove attribute
+           // $("a").removeAttr("href");
+
+            //wrap method
+
+            //$("p").wrap("<div style='border:3px solid red'></div>");
+            // $("p").wrapAll("<div style='border:3px solid red'></div>");
+
+
+             //empty method
+             //$("ul").empty();
+
+             //remove
+            // $("p").remove();
+
+             //clone
+            // $("#p2").clone().appendTo("body");
+                 
+
+             //replace with
+           //  $("#p2").replaceWith("<h1> Heading </h1>");
+             $ ("<h1> Heading </h1>").replaceAll("p");
+
+             
+
+
+             
+            })
+             </script>
+    </head>
+            <body>
+                <p id="p1">
+                    this is ravina
+                </p>
+                 <p id="p2">
+                    Hey para2
+                </p>
+                <ul id="list1">
+                    <li> List item1 </li>
+                    <li> List item2 </li>
+                    <li> List item3 </li>
+                </ul>
+                <p >
+                    Hey last para
+                </p>
+                <a href="#"> okay </a> <br/>
+                <img/> 
+                 
+
+               
+                
+            </body>
+</html>

@@ -1,0 +1,6 @@
+D:\Worker\WCF_DemoExchangePatterns\Client1\bin\Debug\Client1.exe.config
+D:\Worker\WCF_DemoExchangePatterns\Client1\bin\Debug\Client1.exe
+D:\Worker\WCF_DemoExchangePatterns\Client1\bin\Debug\Client1.pdb
+D:\Worker\WCF_DemoExchangePatterns\Client1\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Worker\WCF_DemoExchangePatterns\Client1\obj\Debug\Client1.exe
+D:\Worker\WCF_DemoExchangePatterns\Client1\obj\Debug\Client1.pdb

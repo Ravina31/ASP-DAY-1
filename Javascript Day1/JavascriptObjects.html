@@ -1,0 +1,128 @@
+<html>
+<head>
+    <title> Objects in javascript</title>
+    <script >
+var obj = new Object("sachin", "33");
+   document.write(obj[0]+"<br/>"); 
+//using literal
+   var obj = {firstname: "ravi", lastname:"gaikawad", age: "21"};
+   document.write("type of obj  ", typeof(obj)+"<br/>");
+   document.write("firstname is "+obj.firstname+"lastname is "+obj.lastname+"age is "+obj.age+"<br/>");
+   document.write("firstname is  "+obj["firstname"]+"lastname is  "+obj["lastname"]+"age is  "+obj["age"]+"<br/>");
+
+//using new operator
+var obj1 = new Object();
+obj1.firstname = "Ravina";
+obj1.lastname = "Gaikawad";
+document.write("firstname is "+obj.firstname+"lastname is "+obj.lastname+"<br/>");
+
+//constructor
+
+function Car(name)
+{
+    this.Name = name;
+    this.year = 2013;
+    this.price =function()
+    {
+        return 67895;
+    }
+}
+var nano = new Car("Nano");
+document.write(nano.Name+ " "+nano.year+ " " + nano.price()+ "<br/>");
+
+//string object
+
+var str = "Hello i'm new to JS";
+document.write(typeof(str)+"<br/>");
+//using new keyword
+var str2 = new String("helooooooo hud hud hud");
+document.write(typeof(str2)+"<br/>");
+if (str === str2)
+ {
+    //alert("Two strings are equal");
+}
+else 
+//alert("Not equal");
+
+document.write(str.toUpperCase()+ "<br/>");
+document.write(str.toLowerCase()+ "<br/>");
+document.write(str.split(' ', 3)+ "<br/>");
+document.write(str.substr(6,5)+ "<br/>");
+document.write(str.slice(7,12)+ "<br/>");
+document.write(str.concat(str, str2)+ "<br/>");
+document.write(str.indexOf('w')+ "<br/>");
+document.write(str.charAt(8)+ "<br/>");
+document.write(str.charCodeAt(12)+ "<br/>");
+
+//Math operators
+document.write(Math.abs(-9)+ "<br/>");
+document.write(Math.PI*2*2+ "<br/>");
+document.write(Math.sqrt(9)+ "<br/>");
+document.write(Math.round(9.6)+ "<br/>");
+document.write(Math.ceil(9.5)+ "<br/>");
+document.write(Math.min(-9,5,6,3)+ "<br/>");
+document.write(Math.max(-9,24,76,45)+ "<br/>");
+document.write(Math.pow(2,2)+ "<br/>");
+document.write(Math.floor(9.6)+ "<br/>");
+document.write(Math.random()+ "<br/>");
+
+//date object
+document.write(Date.now());
+document.write("<br/>");
+ var date = new Date().getTime();
+ document.write(date);
+document.write("<br/>");
+ var today = new Date();
+ document.write(today);
+ var h = today.getHours();
+ var m = today.getMinutes();
+ var s = today.getSeconds();
+ document.write("<br/>");
+ document.write(h+"  "+m+"  "+s);
+ var date2 = new Date().getTime();
+ document.write("<br/>");
+  document.write(date2);
+ date2 = date + 1;  document.write("<br/>");
+ d= date2 - date ;
+  document.write(Math.ceil(d/(60*60*12*1000)));
+  document.write("<br/>");
+
+  //array obj
+  var arr = new Array("102","26","67","874");
+  for (var i in arr) {
+      document.write(arr[i], " ");
+  } document.write("<br/>");
+
+  var ar = ["102","26","67","870000000004"];
+  for (var i in ar) {
+      document.write(ar[i], " ");
+  } document.write("<br/>");
+
+function foo()
+{
+    return "inside foo";
+}
+var justarray = [Date(), foo, ar];
+document.write(justarray[0]+"<br/>");
+document.write(justarray[1]()+"<br/>");
+for (var i = 0; i < justarray[2].length; i++) {
+    
+     document.write(justarray[2][i]+"<br/>");
+} document.write("<br/>");
+
+
+ 
+
+
+
+
+
+
+
+
+</script>
+</head>
+<body> 
+    
+    </body>    
+</html>

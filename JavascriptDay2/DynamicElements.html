@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title> Dynamic elements javascript</title>
+    <style>
+        #opener{
+            background-color: peachpuff;
+        }
+        .closer{
+            background-color: palegreen;
+                   }
+    </style>   
+</head>
+<body> 
+    <p id="opener"> First para </p>
+    <p> second para </p>
+    <p class="closer" > third para </p>
+     <p class="closer" > fourth para </p>
+  <script>
+ var p1 =document.getElementsByClassName("closer")[1];
+ p1.style.backgroundColor = "red" ;
+
+ //adding new elements
+ var mypara =document.createElement('p');
+ mypara.innerHTML="new para" ;
+ mypara.style.border = "2px solid red";
+ document.body.appendChild(mypara);
+
+
+//removing child
+var delpara = document.getElementsByTagName('p')[1];
+document.body.removeChild(delpara);      
+       
+    </script> 
+    </body>    
+</html>

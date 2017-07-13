@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title> Event handling in javascript</title>
+   
+</head>
+<body> 
+    <div id="d">
+        <input type="button" id = "mybtn" value="remove"/>
+    </div>
+    <p id="mp"> </p>
+
+ 
+ <script>
+     document.getElementById("d").addEventListener("mousemove",add);
+      document.getElementById("mybtn").addEventListener("click",removelist);
+       
+      function add()
+      {
+          document.getElementById("mp").innerHTML =Math.random();
+      }
+      function removelist()
+      {
+          alert("hi");
+          document.getElementById("d").removeEventListener("mousemove",remove());
+     }
+     function remove()
+     {
+         document.getElementById("mp").innerHTML="Event removed";
+     }       
+</script>
+    
+    </body>    
+</html>
