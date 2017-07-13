@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CaseStudy1", "D:\CaseStudy1\", "{7AFF1FD4-4763-4E9A-8CE4-C372FC8FCECE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{3653f70a-2d7c-489e-9b15-2dd90dc49556}|ClassLibrary1.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/CaseStudy1"
+		Debug.AspNetCompiler.PhysicalPath = "..\CaseStudy1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CaseStudy1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CaseStudy1"
+		Release.AspNetCompiler.PhysicalPath = "..\CaseStudy1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CaseStudy1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59772"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntities", "ClassLibrary1\BusinessEntities.csproj", "{3653F70A-2D7C-489E-9B15-2DD90DC49556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseStudyDALServicesLib", "CaseStudyDAL\CaseStudyDALServicesLib.csproj", "{491820CB-03E4-4A28-86DD-C66880307BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{747B9C91-CA69-4B0C-99FA-E5641B281394}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AFF1FD4-4763-4E9A-8CE4-C372FC8FCECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFF1FD4-4763-4E9A-8CE4-C372FC8FCECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFF1FD4-4763-4E9A-8CE4-C372FC8FCECE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFF1FD4-4763-4E9A-8CE4-C372FC8FCECE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3653F70A-2D7C-489E-9B15-2DD90DC49556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3653F70A-2D7C-489E-9B15-2DD90DC49556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3653F70A-2D7C-489E-9B15-2DD90DC49556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3653F70A-2D7C-489E-9B15-2DD90DC49556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491820CB-03E4-4A28-86DD-C66880307BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491820CB-03E4-4A28-86DD-C66880307BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491820CB-03E4-4A28-86DD-C66880307BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491820CB-03E4-4A28-86DD-C66880307BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747B9C91-CA69-4B0C-99FA-E5641B281394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747B9C91-CA69-4B0C-99FA-E5641B281394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747B9C91-CA69-4B0C-99FA-E5641B281394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747B9C91-CA69-4B0C-99FA-E5641B281394}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

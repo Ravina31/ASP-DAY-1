@@ -1,0 +1,7 @@
+C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\CaseStudyDAL\obj\Debug\CaseStudyDAL.csprojResolveAssemblyReference.cache
+C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\CaseStudyDAL\bin\Debug\CaseStudyDAL.dll
+C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\CaseStudyDAL\bin\Debug\CaseStudyDAL.pdb
+C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\CaseStudyDAL\bin\Debug\ClassLibrary1.dll
+C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\CaseStudyDAL\bin\Debug\ClassLibrary1.pdb
+C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\CaseStudyDAL\obj\Debug\CaseStudyDAL.dll
+C:\Users\Ravina.Gaikwad\Documents\Visual Studio 2012\Projects\CaseStudy1.sln (2)\CaseStudyDAL\obj\Debug\CaseStudyDAL.pdb
