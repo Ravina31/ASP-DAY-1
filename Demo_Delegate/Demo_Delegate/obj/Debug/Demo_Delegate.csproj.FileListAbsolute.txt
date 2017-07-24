@@ -1,0 +1,6 @@
+c:\users\geptestuser\documents\visual studio 2015\Projects\Demo_Delegate\Demo_Delegate\bin\Debug\Demo_Delegate.exe.config
+c:\users\geptestuser\documents\visual studio 2015\Projects\Demo_Delegate\Demo_Delegate\bin\Debug\Demo_Delegate.exe
+c:\users\geptestuser\documents\visual studio 2015\Projects\Demo_Delegate\Demo_Delegate\bin\Debug\Demo_Delegate.pdb
+c:\users\geptestuser\documents\visual studio 2015\Projects\Demo_Delegate\Demo_Delegate\obj\Debug\Demo_Delegate.csprojResolveAssemblyReference.cache
+c:\users\geptestuser\documents\visual studio 2015\Projects\Demo_Delegate\Demo_Delegate\obj\Debug\Demo_Delegate.exe
+c:\users\geptestuser\documents\visual studio 2015\Projects\Demo_Delegate\Demo_Delegate\obj\Debug\Demo_Delegate.pdb
