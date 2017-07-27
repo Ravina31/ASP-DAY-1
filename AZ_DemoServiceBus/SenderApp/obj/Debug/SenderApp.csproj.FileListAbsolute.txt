@@ -1,0 +1,8 @@
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\SenderApp\bin\Debug\SenderApp.exe.config
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\SenderApp\bin\Debug\SenderApp.exe
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\SenderApp\bin\Debug\SenderApp.pdb
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\SenderApp\bin\Debug\Microsoft.ServiceBus.dll
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\SenderApp\bin\Debug\Microsoft.ServiceBus.xml
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\SenderApp\obj\Debug\SenderApp.csprojResolveAssemblyReference.cache
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\SenderApp\obj\Debug\SenderApp.exe
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\SenderApp\obj\Debug\SenderApp.pdb

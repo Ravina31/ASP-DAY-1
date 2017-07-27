@@ -1,0 +1,8 @@
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\RecieverApp\bin\Debug\RecieverApp.exe.config
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\RecieverApp\bin\Debug\RecieverApp.exe
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\RecieverApp\bin\Debug\RecieverApp.pdb
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\RecieverApp\bin\Debug\Microsoft.ServiceBus.dll
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\RecieverApp\bin\Debug\Microsoft.ServiceBus.xml
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\RecieverApp\obj\Debug\RecieverApp.exe
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\RecieverApp\obj\Debug\RecieverApp.pdb
+c:\users\geptestuser\documents\visual studio 2015\Projects\AZ_DemoServiceBus\RecieverApp\obj\Debug\RecieverApp.csprojResolveAssemblyReference.cache
