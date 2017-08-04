@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DEV_SetupManagerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CSM_PaymentTerm">
+    <Key>
+      <PropertyRef Name="PaymentTermId" />
+    </Key>
+    <Property Name="PaymentTermId" Type="int" Nullable="false" />
+    <Property Name="PaymentTermName" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="IsDefault" Type="bit" Nullable="false" />
+    <Property Name="NoOfDays" Type="int" />
+    <Property Name="Discount" Type="decimal" Precision="18" Scale="6" />
+    <Property Name="DiscountDays" Type="int" />
+    <Property Name="PaymentTermCode" Type="nvarchar" MaxLength="100" />
+    <Property Name="Updated_Timestamp" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DEV_SetupManagerModelStoreContainer">
+    <EntitySet Name="CSM_PaymentTerm" EntityType="Self.CSM_PaymentTerm" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

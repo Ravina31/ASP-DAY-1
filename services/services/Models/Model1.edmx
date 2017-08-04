@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DEV_SetupManagerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CSM_PaymentTerm">
+          <Key>
+            <PropertyRef Name="PaymentTermId" />
+          </Key>
+          <Property Name="PaymentTermId" Type="int" Nullable="false" />
+          <Property Name="PaymentTermName" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="IsDeleted" Type="bit" Nullable="false" />
+          <Property Name="IsDefault" Type="bit" Nullable="false" />
+          <Property Name="NoOfDays" Type="int" />
+          <Property Name="Discount" Type="decimal" Precision="18" Scale="6" />
+          <Property Name="DiscountDays" Type="int" />
+          <Property Name="PaymentTermCode" Type="nvarchar" MaxLength="100" />
+          <Property Name="Updated_Timestamp" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="DEV_SetupManagerModelStoreContainer">
+          <EntitySet Name="CSM_PaymentTerm" EntityType="Self.CSM_PaymentTerm" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DEV_SetupManagerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CSM_PaymentTerm">
+          <Key>
+            <PropertyRef Name="PaymentTermId" />
+          </Key>
+          <Property Name="PaymentTermId" Type="Int32" Nullable="false" />
+          <Property Name="PaymentTermName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+          <Property Name="IsDefault" Type="Boolean" Nullable="false" />
+          <Property Name="NoOfDays" Type="Int32" />
+          <Property Name="Discount" Type="Decimal" Precision="18" Scale="6" />
+          <Property Name="DiscountDays" Type="Int32" />
+          <Property Name="PaymentTermCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Updated_Timestamp" Type="Binary" MaxLength="8" FixedLength="true" Nullable="false" annotation:StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityContainer Name="DEV_SetupManagerEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CSM_PaymentTerm1" EntityType="Self.CSM_PaymentTerm" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DEV_SetupManagerModelStoreContainer" CdmEntityContainer="DEV_SetupManagerEntities">
+          <EntitySetMapping Name="CSM_PaymentTerm1">
+            <EntityTypeMapping TypeName="DEV_SetupManagerModel.CSM_PaymentTerm">
+              <MappingFragment StoreEntitySet="CSM_PaymentTerm">
+                <ScalarProperty Name="PaymentTermId" ColumnName="PaymentTermId" />
+                <ScalarProperty Name="PaymentTermName" ColumnName="PaymentTermName" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+                <ScalarProperty Name="NoOfDays" ColumnName="NoOfDays" />
+                <ScalarProperty Name="Discount" ColumnName="Discount" />
+                <ScalarProperty Name="DiscountDays" ColumnName="DiscountDays" />
+                <ScalarProperty Name="PaymentTermCode" ColumnName="PaymentTermCode" />
+                <ScalarProperty Name="Updated_Timestamp" ColumnName="Updated_Timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

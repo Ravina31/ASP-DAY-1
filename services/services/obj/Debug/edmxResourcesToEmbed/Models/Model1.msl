@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DEV_SetupManagerModelStoreContainer" CdmEntityContainer="DEV_SetupManagerEntities">
+    <EntitySetMapping Name="CSM_PaymentTerm1">
+      <EntityTypeMapping TypeName="DEV_SetupManagerModel.CSM_PaymentTerm">
+        <MappingFragment StoreEntitySet="CSM_PaymentTerm">
+          <ScalarProperty Name="PaymentTermId" ColumnName="PaymentTermId" />
+          <ScalarProperty Name="PaymentTermName" ColumnName="PaymentTermName" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="NoOfDays" ColumnName="NoOfDays" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="DiscountDays" ColumnName="DiscountDays" />
+          <ScalarProperty Name="PaymentTermCode" ColumnName="PaymentTermCode" />
+          <ScalarProperty Name="Updated_Timestamp" ColumnName="Updated_Timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
